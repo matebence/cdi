@@ -36,6 +36,7 @@
 
 > #### Wildfly setup
 
+```bash
 # Download Wildfly
 wget https://download.jboss.org/wildfly/24.0.1.Final/wildfly-24.0.1.Final.zip
 
@@ -75,3 +76,4 @@ jboss-cli.bat --connect
 
 # Restart running server
 reload
+```
