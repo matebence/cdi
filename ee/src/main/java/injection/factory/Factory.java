@@ -6,13 +6,11 @@ import javax.enterprise.inject.Disposes;
 import javax.enterprise.inject.Produces;
 import javax.enterprise.inject.Instance;
 import javax.enterprise.inject.Any;
-import javax.ejb.LocalBean;
 import javax.inject.Named;
 
 import injection.factory.machines.CoffeeMachine;
 import injection.factory.machines.DrinkMachine;
 
-@LocalBean
 @Dependent
 @Named("Factory")
 public class Factory {

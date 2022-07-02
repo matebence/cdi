@@ -4,13 +4,11 @@ import interceptor.Logged;
 
 import javax.enterprise.context.Dependent;
 import javax.enterprise.event.Event;
-import javax.ejb.LocalBean;
 import javax.inject.Inject;
 import javax.inject.Named;
 
 @Logged
 @Dependent
-@LocalBean
 @Named("stockObserver")
 public class StockObserver {
 

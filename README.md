@@ -30,10 +30,6 @@
 - @PostConstruct - CDI calls the methods annotated with @PostConstruct only once, just after the initialization of bean properties.
 - @PreDestroy - A method annotated with @PreDestroy runs only once, just before CDI removes our bean from the application context.
 
-- @Remote - When your EJB and its clients will be in a distributed environment - meaning EJBs and clients will reside on separate Java virtual machines. Example : EJBs hosted on a WebSphere Application Server and Servlets that consume EJB APIs hosted on a Tomcat server.
-- @Local - Only when it is guaranteed that other enterprise beans or clients will only address the bean within a single JVM. Example, EJBs as well as the Servlets deployed on the same WebSphere server.
-- @LocalBean - Is almost same as local client view, but there are differences. Your bean class is not required to implement client view interfaces in this case. All public methods of the bean class are automatically exposed to the caller.
-
 > #### Wildfly setup
 
 ```bash

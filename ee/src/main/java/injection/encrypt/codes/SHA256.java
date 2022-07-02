@@ -2,12 +2,10 @@ package injection.encrypt.codes;
 
 import javax.enterprise.context.Dependent;
 import javax.inject.Named;
-import javax.ejb.Local;
 
 import injection.encrypt.CodeGenerator;
 import injection.encrypt.Code;
 
-@Local
 @Dependent
 @Named("SHA256")
 @Code(type = Code.Type.SHA256, locale = Code.Locale.FRENCH)

@@ -5,9 +5,7 @@ import injection.otp.Code;
 
 import javax.enterprise.context.Dependent;
 import javax.inject.Named;
-import javax.ejb.Local;
 
-@Local
 @Dependent
 @Named("EAN1Barcode")
 @Code(type = Code.Type.EAN1)

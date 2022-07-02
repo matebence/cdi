@@ -3,11 +3,9 @@ package observer;
 import javax.enterprise.event.ObservesAsync;
 import javax.enterprise.context.Dependent;
 import javax.annotation.Priority;
-import javax.ejb.LocalBean;
 import javax.inject.Named;
 
 @Dependent
-@LocalBean
 @Named("buyTradingBot")
 public class BuyTradingBot {
 

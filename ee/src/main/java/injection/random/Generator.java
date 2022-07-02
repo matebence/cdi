@@ -4,14 +4,12 @@ import javax.enterprise.context.SessionScoped;
 import javax.enterprise.context.Dependent;
 import javax.enterprise.inject.Disposes;
 import javax.enterprise.inject.Produces;
-import javax.ejb.LocalBean;
 import javax.inject.Named;
 
 import java.util.ArrayList;
 import java.util.Random;
 
 @Dependent
-@LocalBean
 @Named("Generator")
 public class Generator {
 
